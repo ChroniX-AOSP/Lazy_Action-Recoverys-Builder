@@ -57,6 +57,7 @@ jobs:
       
     - name: Display Inputs
       run: |
+        df -h /
         echo "Displaying variables/inputs."
         echo "Manifest Branch: ${{ inputs.MANIFEST_BRANCH }}"
         echo "Device Tree: ${{ inputs.DEVICE_TREE }}"
